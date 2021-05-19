@@ -52,3 +52,9 @@ console.log(jake.name + " " + jake.age);
 var other;
 other = "Clarck ken";
 other = 200;
+/*
+    in type script we can use the keyword debugger or other way to debug is adding a line code in tsconfig
+    "sourceMap": true
+    now we need to go our browser and the source we will have a file with .TS in that file we can put a breakpoint to debug
+*/
+// If we can avoid the commetns in our js file is in our tsconfig with  "removeComments": true"
